@@ -1,0 +1,59 @@
+@import './styles/slider.scss';
+
+:root {
+    /* CSS HEX */
+--delft-blue: #1d3461ff;
+--polynesian-blue: #1f487eff;
+--lapis-lazuli: #376996ff;
+--silver-lake-blue: #6290c8ff;
+--vista-blue: #829cbcff;
+
+/* CSS HSL */
+--delft-blue: hsla(220, 54%, 25%, 1);
+--polynesian-blue: hsla(214, 61%, 31%, 1);
+--lapis-lazuli: hsla(208, 46%, 40%, 1);
+--silver-lake-blue: hsla(213, 48%, 58%, 1);
+--vista-blue: hsla(213, 30%, 62%, 1);
+}
+
+/* SCSS HEX */
+$delft-blue: #1d3461ff;
+$polynesian-blue: #1f487eff;
+$lapis-lazuli: #376996ff;
+$silver-lake-blue: #6290c8ff;
+$vista-blue: #829cbcff;
+
+/* SCSS HSL */
+$delft-blue: hsla(220, 54%, 25%, 1);
+$polynesian-blue: hsla(214, 61%, 31%, 1);
+$lapis-lazuli: hsla(208, 46%, 40%, 1);
+$silver-lake-blue: hsla(213, 48%, 58%, 1);
+$vista-blue: hsla(213, 30%, 62%, 1);
+
+/* SCSS RGB */
+$delft-blue: rgba(29, 52, 97, 1);
+$polynesian-blue: rgba(31, 72, 126, 1);
+$lapis-lazuli: rgba(55, 105, 150, 1);
+$silver-lake-blue: rgba(98, 144, 200, 1);
+$vista-blue: rgba(130, 156, 188, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-right: linear-gradient(90deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-bottom: linear-gradient(180deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-left: linear-gradient(270deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-top-right: linear-gradient(45deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-bottom-right: linear-gradient(135deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-top-left: linear-gradient(225deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-bottom-left: linear-gradient(315deg, #1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+$gradient-radial: radial-gradient(#1d3461ff, #1f487eff, #376996ff, #6290c8ff, #829cbcff);
+
+
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: $delft-blue;
+}
